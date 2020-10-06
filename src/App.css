@@ -215,3 +215,39 @@ h2 {
   right: 140px;
   animation-delay: 0s;
 }
+body{
+  overflow: hidden;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  color: greenyellow;
+}
+
+.photo-me {
+  width: 15rem;
+}
+
+.social {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  color: greenyellow;
+
+}
+
+.social-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.social-wrapper a {
+  color: greenyellow;
+}
+
+.social-wrapper a svg {
+  font-size: 2rem;
+}
