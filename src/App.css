@@ -235,13 +235,12 @@ body{
   display: grid;
   grid-template-rows: 1fr 1fr;
   color: greenyellow;
-
 }
 
 .social-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
+  margin-top: 25px;
 }
 
 .social-wrapper a {
@@ -250,4 +249,9 @@ body{
 
 .social-wrapper a svg {
   font-size: 2rem;
+}
+
+.contact-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

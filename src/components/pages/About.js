@@ -49,16 +49,20 @@ export default class About extends React.Component {
               </ul>
             </div>
             <div className='about-section social'>
-              <span>
-                  <FaPhoneAlt/>
-                  <phone> +7 921 438 58 02</phone>
+              <span className='contact-item'>
+                <span>
+                  <FaPhoneAlt/> Телефон
+                </span>
+                <span>+7 921 438 58 02</span>
               </span>
-              <span>
-                <FaRegEnvelope/>
-                <email>sumkina.ol@gmail.com</email>
+              <span className='contact-item'>
+                <span>
+                  <FaRegEnvelope/> email
+                </span>
+                <span>sumkina.ol@gmail.com</span>
               </span>
-              <span>
-                <FaTelegramPlane/>
+              <span className='contact-item'>
+                <span><FaTelegramPlane/> Telegram</span>
                 <span>@bambooka</span>
               </span>
               <span className='social-wrapper'>
@@ -69,7 +73,7 @@ export default class About extends React.Component {
                   <FaLinkedinIn/>
                 </a>
                  <a href='https://vk.com/olga.timina'>
-                  <FaVk />
+                  <FaVk/>
                 </a>
               </span>
             </div>
@@ -80,9 +84,10 @@ export default class About extends React.Component {
                  alt='me photo'
             />
             <p>
-              description myself Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur distinctio,
-              dolor, ea eaque eligendi inventore itaque maiores molestiae mollitia neque perferendis placeat provident
-              quibusdam rerum sed sequi ullam vero voluptatum.
+              Я - junior веб-разработчик. Я люблю решать задачи,
+              думать об удобстве приложения, создавать полезное и красивое.
+              Фанат производительности и преданный
+              поклонник material design. Экс-юрист, владелец черепахи, добрый человек :)
             </p>
           </div>
         </section>
