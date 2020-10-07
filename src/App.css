@@ -255,3 +255,50 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.card {
+  margin: 10px;
+  height: 300px;
+  box-sizing: border-box;
+  /*background: none;*/
+  background-color: transparent !important;
+  border: 2px double greenyellow !important;
+  color: greenyellow;
+
+}
+
+.card:hover {
+  background-color: greenyellow;
+}
+
+.card-title {
+  border-bottom: 2px solid greenyellow;
+  text-align: center;
+}
+
+.slider-container {
+  margin-top: 5rem;
+}
+
+.language {
+  color: greenyellow;
+  font-size: 1rem;
+  margin: 5px;
+  border-radius: 50px;
+  width: 100px
+}
+
+/*.project-card {*/
+/*  height: 50vh;*/
+/*  border: 2px double greenyellow;*/
+/*  border-radius: 4px;*/
+/*  box-sizing: border-box;*/
+/*  color: greenyellow;*/
+/*  width: 250px;*/
+/*  margin: 10px*/
+/*}*/
+
+/*.project-image {*/
+/*  height: 20vh;*/
+/*  width: 100vw;*/
+/*}*/
