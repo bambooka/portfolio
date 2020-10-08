@@ -50,7 +50,7 @@ const Projects = () => {
     },
   ]
 
-  const [setSuggestions] = useState([]);
+  const [suggestions, setSuggestions] = useState([]);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
