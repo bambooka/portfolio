@@ -306,6 +306,7 @@ body {
 .card-footer .link h6:hover {
     color: red;
 }
+
 .slick-prev, .slick-next {
     background-color: transparent;
     font-size: 0;
@@ -330,4 +331,59 @@ body {
     content: ">";
     color: greenyellow;
     font-size: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    margin: 7rem auto;
+}
+
+.form-body input {
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    padding: 5px;
+    color: greenyellow;
+}
+
+.user-info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.user-info label:nth-child(2) .user-input {
+    float: right;
+}
+
+.topic-message {
+    width: 100%;
+}
+
+.user-input {
+    width: 95%;
+}
+
+textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    padding: 5px;
+    margin: 5px 0 !important;
+    color: greenyellow;
+}
+
+.form-body button{
+    background-color: transparent;
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+
+.form-body>button:hover {
+    background-color: greenyellow;
+    color: #282c34;
 }
