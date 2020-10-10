@@ -92,36 +92,6 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                  {/*<div className="out" key={current.name}>*/}
-                  {/*<div className="card">*/}
-                  {/*<img*/}
-                  {/*  className="card-img-top"*/}
-                  {/*  alt={"users here"}*/}
-                  {/*  src={current.image_url}*/}
-                  {/*  height={56}*/}
-                  {/*  width={56}*/}
-                  {/*/>*/}
-                  {/*<div className="card-body">*/}
-                  {/*  <h5 className="card-title">{current.name}</h5>*/}
-                  {/*  <span>Languages:*/}
-                  {/*    {current.languages.map(lang => <span className='language'>{lang}</span>)}*/}
-                  {/*  </span>*/}
-                  {/*  <br/>*/}
-                  {/*  <small className="card-text text-sm-center text-muted">*/}
-                  {/*    {current.description}*/}
-                  {/*  </small>*/}
-                  {/*  <br/>*/}
-                  {/*  <div className='card-footer'>*/}
-                  {/*    <a className='card-link' href={current.github_url}>*/}
-                  {/*      <small className='text-muted'>Github</small>*/}
-                  {/*    </a>*/}
-                  {/*    <a className='card-link' href={current.github_url}>*/}
-                  {/*      <small className='text-muted'>Project</small>*/}
-                  {/*    </a>*/}
-                  {/*  </div>*/}
-                  {/*</div>*/}
-                  {/*</div>*/}
-                  {/*</div>*/}
                 </>
               ))}
             </Slider>)
