@@ -1,13 +1,13 @@
 import React from "react";
+import FeedbackForm from "../FeedbackForm";
 
-export default class Contact extends React.Component {
-  render() {
+const Contact = function() {
     return (
-
-        <div>
-          <h2>Contact</h2>
-        </div>
-
+      <div>
+        <h2>Contact</h2>
+        <FeedbackForm />
+      </div>
     )
-  }
 }
+
+export default Contact;
