@@ -1,17 +1,23 @@
 import React from "react";
 import emailjs from 'emailjs-com';
 
+import{ init } from 'emailjs-com';
+init(process.env.USER_KEY);
+
 const Contact = function() {
 
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    console.log(process.env.REACT_APP_SERVICE_ID)
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_KEY)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
       });
+    e.target.reset();
   }
 
     return (
@@ -22,14 +28,14 @@ const Contact = function() {
           <div className='form-body'>
             <div className='user-info'>
               <label>
-                <input className='user-input' type='text' placeholder='Your name'/>
+                <input className='user-input' type='text' name='name' placeholder='Your name'/>
               </label>
               <label>
-                <input className='user-input' type='email' placeholder='Email'/>
+                <input className='user-input' type='email' name='email' placeholder='Email'/>
               </label>
             </div>
-            <input  className='topic-message' type='text' placeholder='Topic'/><br/>
-            <textarea placeholder='Enter your message'></textarea><br/>
+            <input  className='topic-message' type='text' name='topic' placeholder='Topic'/><br/>
+            <textarea placeholder='Enter your message' name='message'></textarea><br/>
             <button type='submit'>Submit</button>
           </div>
         </form>
@@ -37,3 +43,5 @@ const Contact = function() {
 
     )
 }
+
+export default Contact;
