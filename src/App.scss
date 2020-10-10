@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-
+$primaryColor: #0fff00;
 .App {
     text-align: center;
 }
@@ -32,13 +32,13 @@
     top: 0;
     left: 0;
     transition: all 0.4s;
-    color: greenyellow;
+    color: $primaryColor;
     text-decoration: none;
     font-family: 'Audiowide', cursive;
 }
 
 .header-text:hover {
-    color: lawngreen;
+    color: $primaryColor;
     top: 5px;
     left: 5px;
 }
@@ -69,7 +69,7 @@
 }
 
 h2 {
-    color: greenyellow;
+    color: $primaryColor;
     text-decoration: none;
     font-family: 'Audiowide', cursive;
     font-size: 2em;
@@ -225,7 +225,7 @@ body {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    color: greenyellow;
+    color: $primaryColor;
 }
 
 .photo-me {
@@ -235,7 +235,7 @@ body {
 .social {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    color: greenyellow;
+    color: $primaryColor;
 }
 
 .social-wrapper {
@@ -245,7 +245,7 @@ body {
 }
 
 .social-wrapper a {
-    color: greenyellow;
+    color: $primaryColor;
 }
 
 .social-wrapper a svg {
@@ -263,17 +263,17 @@ body {
     box-sizing: border-box;
     /*background: none;*/
     background-color: transparent !important;
-    border: 2px double greenyellow !important;
-    color: greenyellow;
+    border: 2px double $primaryColor !important;
+    color: $primaryColor;
 
 }
 
 .card:hover {
-    background-color: greenyellow;
+    background-color: $primaryColor;
 }
 
 .card-title {
-    border-bottom: 2px solid greenyellow;
+    border-bottom: 2px solid $primaryColor;
     text-align: center;
 }
 
@@ -282,7 +282,7 @@ body {
 }
 
 .language {
-    color: greenyellow;
+    color: $primaryColor;
     font-size: 1rem;
     margin: 5px;
     border-radius: 50px;
@@ -300,7 +300,7 @@ body {
 }
 
 .link h6 {
-    color: greenyellow !important;
+    color: $primaryColor !important;
 }
 
 .card-footer .link h6:hover {
@@ -311,7 +311,7 @@ body {
     background-color: transparent;
     font-size: 0;
     height: fit-content;
-    border: 1px solid greenyellow;
+    border: 1px solid $primaryColor;
 }
 
 .slick-slider {
@@ -323,13 +323,13 @@ body {
 
 .slick-prev:before {
     content: "<";
-    color: greenyellow;
+    color: $primaryColor;
     font-size: 30px;
 }
 
 .slick-next:before {
     content: ">";
-    color: greenyellow;
+    color: $primaryColor;
     font-size: 30px;
 }
 
@@ -344,9 +344,9 @@ body {
 
 .form-body input {
     background-color: transparent;
-    border: 2px solid greenyellow;
+    border: 2px solid $primaryColor;
     padding: 5px;
-    color: greenyellow;
+    color: $primaryColor;
 }
 
 .user-info {
@@ -370,20 +370,20 @@ body {
 textarea {
     width: 100%;
     background-color: transparent;
-    border: 2px solid greenyellow;
+    border: 2px solid $primaryColor;
     padding: 5px;
     margin: 5px 0 !important;
-    color: greenyellow;
+    color: $primaryColor;
 }
 
 .form-body button{
     background-color: transparent;
-    color: greenyellow;
-    border: 2px solid greenyellow;
+    color: $primaryColor;
+    border: 2px solid $primaryColor;
     border-radius: 5px;
 }
 
 .form-body>button:hover {
-    background-color: greenyellow;
+    background-color: $primaryColor;
     color: #282c34;
 }
