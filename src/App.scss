@@ -5,6 +5,7 @@ $primaryColor: greenyellow;
 .App {
   text-align: center;
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 10vh;
@@ -63,6 +64,19 @@ body {
   justify-content: center;
   align-items: center;
   color: $primaryColor;
+}
+
+.about-me-desc {
+  padding: 10px;
+}
+
+.intro-title {
+  font-size: 1.7rem;
+}
+
+.section-title {
+  text-decoration: underline;
+  font-size: 1.3rem;
 }
 
 .photo-me {

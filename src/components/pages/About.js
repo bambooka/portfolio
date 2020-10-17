@@ -15,10 +15,10 @@ export default class About extends React.Component {
         <section className='about'>
           <div className='info-me'>
             <div className='general-info'>
-              <h1>Ольга Сумкина, React разработчик</h1>
+              <h1 className='intro-title'>Ольга Сумкина, React разработчик</h1>
             </div>
             <div className='about-section skills'>
-              <h3>skills</h3>
+              <h3 className='section-title'>skills</h3>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -28,7 +28,7 @@ export default class About extends React.Component {
               </ul>
             </div>
             <div className='about-section experience'>
-              <h3>experience</h3>
+              <h3 className='section-title'>experience</h3>
               <ul>
                 <li>OpenStart - январь-март 2018 (3 месяца)</li>
                 <li>StyleUpp - август 2019 - март 2020 (8 месяцев)</li>
@@ -36,7 +36,7 @@ export default class About extends React.Component {
 
             </div>
             <div className='about-section education'>
-              <h3>education</h3>
+              <h3 className='section-title'>education</h3>
               <ul>
                 <li>
                   <span>РАНХиГС </span>
@@ -78,7 +78,7 @@ export default class About extends React.Component {
               </span>
             </div>
           </div>
-          <div>
+          <div className='about-me-desc'>
             <img className='photo-me'
                  src='https://hsto.org/getpro/moikrug/uploads/user/100/025/700/5/avatar/medium_272313bacaca9b781695cab6a452ed2d.jpeg'
                  alt='me photo'
