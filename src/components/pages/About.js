@@ -78,7 +78,7 @@ export default class About extends React.Component {
               </span>
             </div>
           </div>
-          <div>
+          <div className='about-me-desc'>
             <img className='photo-me'
                  src='https://hsto.org/getpro/moikrug/uploads/user/100/025/700/5/avatar/medium_272313bacaca9b781695cab6a452ed2d.jpeg'
                  alt='me photo'
