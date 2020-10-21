@@ -1,2 +1,2 @@
 
-Https://bambooka.githun.io
+https://bambooka.github.io
