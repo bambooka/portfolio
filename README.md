@@ -1,2 +1,1 @@
-
-https://bambooka.github.io
+My portfolio - on https://bambooka.github.io
